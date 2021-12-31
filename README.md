@@ -18,3 +18,9 @@ Here are some ideas to get you started:
 ``` javascript
   can write js
 ```
+
+### REACT 화면 밑 콤마 생김
+
+```
+ // index.js에서 콤마 없애기
+```
