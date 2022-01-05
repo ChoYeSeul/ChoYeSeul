@@ -24,3 +24,10 @@ Here are some ideas to get you started:
 ```
  // index.js에서 콤마 없애기
 ```
+
+### localStorage
+
+```
+localStorage.setItem('searchKeyword', JSON.stringify(arr)); // setItem - 아이템 보내기, JSON.stringify를 통해 문자열로 보내주기
+JSON.parse(localStorage.getItem('searchKeyword')) // getItem - 아이템 받기, JSON.parse를 사용해 한번 까기
+```
