@@ -55,3 +55,20 @@ JSON.parse(localStorage.getItem('searchKeyword')) // getItem - 아이템 받기,
 
     productData.options.optionList[product?.product_id] = optionArr;
 ```
+### 유효성 - 특수문자 및 공백 제거
+```
+  //유효성
+  function removeSpecialData(originalData, setState) {
+    var reg = /[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/ ]/gim;
+    var resultData = originalData.replace(reg, "");
+    setState(resultData);
+  }
+
+  useEffect(() => {
+    removeSpecialData(managerName, setManagerName);
+    removeSpecialData(managerTitle, setManagerTitle);
+    removeSpecialData(companyName, setCompanyName);
+    removeSpecialData(emailId, setEmailId);
+    removeSpecialData(emailEditInput, setEmailEditInput);
+  }, [companyName, managerName, managerTitle, emailId]);
+```
