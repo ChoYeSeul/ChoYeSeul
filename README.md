@@ -1,74 +1,13 @@
-### Hi there 👋
+<h4>📝 SKILLS 📝</h4>
+<div>
+  <span>Publishing</span>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/>
+  <br/>
+  <span>Front-End</span>
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
 
-<!--
-**ChoYeSeul/ChoYeSeul** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-``` javascript
-  can write js
-```
-
-### REACT 화면 밑 콤마 생김
-
-```
- // index.js에서 콤마 없애기
-```
-
-### localStorage
-
-```
-localStorage.setItem('searchKeyword', JSON.stringify(arr)); // setItem - 아이템 보내기, JSON.stringify를 통해 문자열로 보내주기
-JSON.parse(localStorage.getItem('searchKeyword')) // getItem - 아이템 받기, JSON.parse를 사용해 한번 까기
-```
-
-### 오브젝트 머리에 데이터 넣기
-```
-    let productData = {
-        product_id: product?.product_id,
-        product_img: product?.product_img,
-        product_price: product?.product_price,
-        product_sale_rate: product?.product_sale_rate,
-        product_Kname: product?.product_Kname,
-        sale_price: product?.sale_price,
-        count: 1,
-        options: {
-            optionList: {},
-            optId: optionIdArr,
-            product: {
-                product_id: product?.product_id,
-                product_sale_rate: product?.product_sale_rate,
-                product_price: product?.product_price,
-            },
-        },
-    };
-
-    productData.options.optionList[product?.product_id] = optionArr;
-```
-### 유효성 - 특수문자 및 공백 제거
-```
-  //유효성
-  function removeSpecialData(originalData, setState) {
-    var reg = /[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/ ]/gim;
-    var resultData = originalData.replace(reg, "");
-    setState(resultData);
-  }
-
-  useEffect(() => {
-    removeSpecialData(managerName, setManagerName);
-    removeSpecialData(managerTitle, setManagerTitle);
-    removeSpecialData(companyName, setCompanyName);
-    removeSpecialData(emailId, setEmailId);
-    removeSpecialData(emailEditInput, setEmailEditInput);
-  }, [companyName, managerName, managerTitle, emailId]);
-```
+</div>
