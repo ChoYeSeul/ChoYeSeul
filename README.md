@@ -15,7 +15,7 @@
   <!-- skills end -->
   
   <!-- now studing this start -->
-  <h4>🌷 Now Studing This... 🌷</h4>
+  <h4>🌷 Now I can use this... 🌷</h4>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
   <!-- new studing this end -->
   
