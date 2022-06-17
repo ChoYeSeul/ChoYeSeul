@@ -42,9 +42,9 @@
 <!--   <a href="https://instagram.com/132.o3">
     <img src="http://img.shields.io/badge/-Instagram-black?style=flat&logo=Instagram&link=https://www.instagram.com/132.o3/"/>
   </a> -->
-  <a href="https://royal-foundation-7a0.notion.site/132-o3-9deebf2c25b5459c9eafb6976c77c5b7">
+<!--   <a href="https://royal-foundation-7a0.notion.site/132-o3-9deebf2c25b5459c9eafb6976c77c5b7">
      <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/>
-  </a>
+  </a> -->
    <a href="https://132-o3.tistory.com/">
         <img src="https://img.shields.io/badge/Blog-000000?style=flat-square&logo=Blog&logoColor=white"/>
    </a>
