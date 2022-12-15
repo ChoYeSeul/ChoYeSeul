@@ -45,9 +45,9 @@
 <!--   <a href="https://royal-foundation-7a0.notion.site/132-o3-9deebf2c25b5459c9eafb6976c77c5b7">
      <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/>
   </a> -->
-   <a href="https://132-o3.tistory.com/">
+<!--    <a href="https://132-o3.tistory.com/">
         <img src="https://img.shields.io/badge/Blog-000000?style=flat-square&logo=Blog&logoColor=white"/>
-   </a>
+   </a> -->
   <img src="https://img.shields.io/badge/jys0323117@naver.com-000000?style=flat-square&logo=jys0323117@naver.com&logoColor=white"/>
   <!-- how to reach me end -->
 </div>
